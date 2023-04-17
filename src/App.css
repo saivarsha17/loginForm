@@ -1,0 +1,51 @@
+.mainContainer {
+  /* display: flex; */
+  background: url('./background.jpeg') center center / cover no-repeat;
+  height: 100vh;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.buttonContainer {
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.passwordContainer {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.emailContainer {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.popupContainer {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+}
+.loginDoneContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20pt;
+  font-weight: bolder;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+}
